@@ -1,0 +1,20 @@
+{
+  "name": "jwtswaggerapi",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gonzalo Martín Erro <gmartinerro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1"
+  },
+  "bin": {
+    "create-api-skeleton": "./index.js"
+  },
+  "devDependencies": {},
+  "description": ""
+}

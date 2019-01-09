@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.16.0",
+    "restify": "^4.0.2",
+    "restify-errors": "^6.1.1",
+    "swagger-restify-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "swagger project start",
+    "test": "swagger project test",
+    "keygen": "./keygen.sh"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
